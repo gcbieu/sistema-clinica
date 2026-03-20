@@ -13,7 +13,7 @@ Instale as dependências:
 
 
 Inicie o servidor:
-```bash node src/server.js
+node src/server.js
 
 
 🌐 O servidor backend rodará em: http://localhost:3000
