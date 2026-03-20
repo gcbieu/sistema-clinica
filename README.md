@@ -1,35 +1,71 @@
-# 🏥 **Sistema de Clínica Inteligente **
+Sistema de Atendimento Inteligente - Clínica Médica 🏥
 
-## 🚀 **1. Guia de Instalação e Execução**
+Projeto consiste em uma plataforma Full Stack para agendamento de consultas com integrações inteligentes.
 
-Para garantir um arquivo leve, as pastas de dependências (`node_modules`) foram removidas. Siga os passos abaixo para preparar o ambiente:
+🚀 Como Executar o Projeto
 
-### ⚙️ **Passo A: Configurando o Backend (Servidor)**
-1. Abra um terminal na pasta `/backend`.
-2. Instale as dependências:
-   ```bash
-   npm install
-Inicie o servidor:node src/server.js
-📍 O servidor backend rodará em: http://localhost:3000💻 
+Passo A: Configurando o Backend (Servidor)
 
-### ⚙️ **Passo B: Configurando o Frontend (Interface)
-1. Abra um segundo terminal na pasta `/frontend`.
-2. Instale as dependências:
-```bash
-   npm install
-3. Inicie a aplicação: 
-```bash
-   npm run dev
-📍 Acesse o sistema pelo navegador.
+Abra um terminal na pasta /backend.
 
-🛠️ Funcionalidades e Requisitos Atendidos
+Instale as dependências:
 
-🔐Autenticação JWT: Registro e Login seguro com senhas criptografadas via BCrypt e proteção de rotas por Token.
-📍 Integração ViaCEP: Preenchimento automático de logradouro e cidade assim que o CEP é digitado.
-☁️ Inteligência Climática (HG Brasil): Consulta em tempo real. O sistema exibe um Alerta de Chuva automático no card caso haja previsão de precipitação para o dia da consulta.
-👨‍⚕️ Painel Administrativo: Filtro de acesso inteligente por cargo.Secretário: Visualiza a lista completa de agendamentos da clínica.Paciente: Visualiza apenas seus próprios horários agendados.
-🗄️ Banco de Dados: Persistência robusta de dados utilizando MongoDB.
+npm install
 
 
-👨‍💻 Desenvolvedor: Gabriel Costa de Oliveira 
-📅 Ano: 2026
+Inicie o servidor:
+
+node src/server.js
+
+
+🌐 O servidor backend rodará em: http://localhost:3000
+
+Passo B: Configurando o Frontend (Interface)
+
+Abra um segundo terminal na pasta /frontend.
+
+Instale as dependências:
+
+npm install
+
+
+Inicie a aplicação:
+
+npm run dev
+
+
+🖱️ Acesse o sistema pelo navegador no link indicado pelo terminal (geralmente http://localhost:5173).
+
+🛠️ Tecnologias Utilizadas
+
+Frontend: Vue.js 3 (Vite), Axios, Tailwind CSS.
+
+Backend: Node.js, Express.
+
+Banco de Dados: MongoDB.
+
+Segurança: Autenticação JWT e Criptografia BCrypt.
+
+APIs Externas: ViaCEP (Endereço) e HG Brasil Weather (Clima).
+
+🔐 Funcionalidades e Requisitos Atendidos
+
+Autenticação JWT: Registro e Login seguro com senhas criptografadas.
+
+Proteção de Rotas: Acesso restrito a usuários autenticados.
+
+Integração ViaCEP: Preenchimento automático de logradouro e cidade através do CEP.
+
+Inteligência Climática (HG Brasil): O sistema exibe um Alerta de Chuva automático nos agendamentos caso haja previsão de precipitação para o dia.
+
+Painel Administrativo: - Paciente: Visualiza apenas seus próprios agendamentos.
+
+Secretário: Possui visão global de todos os agendamentos para gestão de horários e disponibilidade.
+
+Banco de Dados: Persistência robusta de dados utilizando MongoDB.
+
+👨‍💻 Desenvolvedor
+
+Nome: Gabriel Costa de Oliveira
+
+Ano: 2026
