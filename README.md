@@ -13,9 +13,13 @@ Inicie o servidor:node src/server.js
 📍 O servidor backend rodará em: http://localhost:3000💻 
 
 ### ⚙️ **Passo B: Configurando o Frontend (Interface)
-Abra um segundo terminal na pasta frontend.
-Instale as dependências: npm install
-Inicie a aplicação: npm run dev
+1. Abra um segundo terminal na pasta `/frontend`.
+2. Instale as dependências:
+```bash
+   npm install
+3. Inicie a aplicação: 
+```bash
+   npm run dev
 📍 Acesse o sistema pelo navegador.
 
 🛠️ Funcionalidades e Requisitos Atendidos
