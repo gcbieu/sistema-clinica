@@ -28,5 +28,4 @@ Inicie a aplicação: npm run dev
 
 
 👨‍💻 Desenvolvedor: Gabriel Costa de Oliveira 
-📍 Universidade Veiga de Almeida (UVA) 
 📅 Ano: 2026
