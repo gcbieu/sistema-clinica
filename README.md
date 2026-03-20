@@ -26,20 +26,6 @@ Inicie a aplicação: npm run dev
 👨‍⚕️ Painel Administrativo: Filtro de acesso inteligente por cargo.Secretário: Visualiza a lista completa de agendamentos da clínica.Paciente: Visualiza apenas seus próprios horários agendados.
 🗄️ Banco de Dados: Persistência robusta de dados utilizando MongoDB.
 
-3. Arquitetura do Sistema
-
-🌐 Backend (Node.js + Express): Orquestrador das regras de negócio, conexão com o banco de dados e ponte para as APIs de Clima e CEP.
-🎨 Frontend (Vue.js 3 + Vite): Interface reativa, moderna e otimizada para uma experiência de usuário fluida.
-
-5. Stack Tecnológica
-
-🌐 Tecnologia       Descrição
-Linguagens          JavaScript (Node.js / Vue.js)
-Banco de Dados      MongoDB (Mongoose)
-APIs Externas       ViaCEP (Endereço) e HG Brasil (Clima)
-Bibliotecas         Axios, JSON Web Token (JWT), BCrypt
-
-
 
 👨‍💻 Desenvolvedor: Gabriel Costa de Oliveira 
 📍 Universidade Veiga de Almeida (UVA) 
