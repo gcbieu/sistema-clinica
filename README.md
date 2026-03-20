@@ -16,6 +16,7 @@ Inicie o servidor:node src/server.js
 Abra um segundo terminal na pasta frontend.
 Instale as dependências: npm install
 Inicie a aplicação: npm run dev
+
 📍 Acesse o sistema pelo navegador em: http://localhost:5173/
 
 🛠️ Funcionalidades e Requisitos Atendidos
