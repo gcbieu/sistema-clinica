@@ -9,16 +9,16 @@ Para garantir um arquivo leve, as pastas de dependências (`node_modules`) foram
 2. Instale as dependências:
    ```bash
    npm install
-Inicie o servidor:Bashnode src/server.js
+Inicie o servidor:node src/server.js
 📍 O servidor backend rodará em: http://localhost:3000💻 
 
 ### ⚙️ **Passo B: Configurando o Frontend (Interface)
-Abra um segundo terminal na pasta cd frontend.
+Abra um segundo terminal na pasta frontend.
 Instale as dependências: npm install
 Inicie a aplicação: npm run dev
-📍 Acesse o sistema pelo navegador em: http://localhost:5173🛠️ 
+📍 Acesse o sistema pelo navegador em: http://localhost:5173/
 
-2. Funcionalidades e Requisitos Atendidos
+🛠️ Funcionalidades e Requisitos Atendidos
 
 🔐Autenticação JWT: Registro e Login seguro com senhas criptografadas via BCrypt e proteção de rotas por Token.
 📍 Integração ViaCEP: Preenchimento automático de logradouro e cidade assim que o CEP é digitado.
