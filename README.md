@@ -23,11 +23,11 @@ Passo B: Configurando o Frontend (Interface)
 Abra um segundo terminal na pasta /frontend.
 
 Instale as dependências:
-```bash
+
 npm install
 
 Inicie a aplicação:
-```bash
+
 npm run dev
 
 🖱️ Acesse o sistema pelo navegador no link indicado pelo terminal (geralmente http://localhost:5173).
