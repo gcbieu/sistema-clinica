@@ -2,6 +2,7 @@ Sistema de Atendimento Inteligente - Clínica Médica 🏥
 
 Projeto consiste em uma plataforma Full Stack para agendamento de consultas com integrações inteligentes.
 
+```bash
 🚀 Como Executar o Projeto
 
 Passo A: Configurando o Backend (Servidor)
@@ -9,7 +10,7 @@ Passo A: Configurando o Backend (Servidor)
 Abra um terminal na pasta /backend.
 
 Instale as dependências:
-```bash npm install
+npm install
 
 
 Inicie o servidor:
